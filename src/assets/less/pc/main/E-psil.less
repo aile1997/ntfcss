@@ -1,0 +1,130 @@
+.family {
+  font-family: Helvetica Neue, Helvetica Neue-Medium;
+}
+#psil {
+  .family;
+
+  p {
+    span {
+      font-size: 0.8rem;
+      font-weight: 500;
+    }
+  }
+
+  .coin {
+    position: relative;
+    height: 3.5rem;
+    img {
+      position: absolute;
+      width: 6.33rem;
+      height: 6.33rem;
+      top: -2rem;
+      left: 1.9rem;
+      z-index: 1;
+    }
+    dl {
+      width: 3.17rem;
+      height: 1.72rem;
+      background: #1c1c24;
+      border-radius: 0.21rem;
+      padding: 0.25rem;
+      align-items: flex-start;
+      dt {
+        opacity: 0.5;
+        font-size: 0.16rem;
+      }
+      dd {
+        font-size: 0.34rem;
+        width: 2.2rem;
+      }
+    }
+    dl:nth-of-type(1) {
+      position: absolute;
+      top: 0.5rem;
+      left: 1.1rem;
+      z-index: 0;
+    }
+    dl:nth-of-type(2) {
+      position: absolute;
+      top: -1.2rem;
+      left: 6.1rem;
+      z-index: 2;
+      background: #1c1c2457;
+    }
+    ul {
+      position: absolute;
+      top: 1.6rem;
+      left: 6.1rem;
+      font-size: 0.14rem;
+      li {
+        font-size: 0.14rem;
+        color: #5527ff;
+        width: 3.34rem;
+      }
+      li:nth-last-of-type(2) {
+        color: #000000;
+      }
+    }
+  }
+  .coinText {
+    .family;
+    > p {
+      opacity: 0.3;
+      font-size: 0.14rem;
+    }
+    .coinTextBottom {
+      margin-top: 0.5rem;
+    }
+    dl {
+      width: 10rem;
+      height: 1.63rem;
+      background: #1c1c245b;
+      border-radius: 0.2rem;
+      margin-top: 0.4rem;
+      padding: 0.4rem;
+      padding-top: 0.3rem;
+      dd {
+        span {
+          opacity: 0.5;
+          font-size: 0.16rem;
+        }
+        p {
+          font-size: 0.34rem;
+          color: #5527ff;
+          margin-top: 0.1rem;
+        }
+        ul {
+          width: 2.46rem;
+          height: 0.64rem;
+          background: #1e1e29;
+          border-radius: 0.14rem;
+          padding: 0.2rem;
+          margin-top: 0.1rem;
+          input {
+            background-color: transparent;
+            border: transparent;
+            width: 1.14rem;
+            color: #fff;
+            font-size: 0.38rem;
+            position: absolute;
+            overflow: hidden;
+          }
+          li {
+            font-size: 0.34rem;
+            margin-left: 1.4rem;
+          }
+        }
+      }
+      dd:nth-of-type(2) {
+        margin-top: 0.3rem;
+      }
+      dt {
+        width: 1.56rem;
+        height: 0.55rem;
+        background: #5527ff;
+        border-radius: 0.28rem;
+        margin-left: 1.5rem;
+      }
+    }
+  }
+}

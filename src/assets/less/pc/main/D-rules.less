@@ -1,0 +1,208 @@
+.family {
+  font-family: Helvetica Neue, Helvetica Neue-Regular;
+}
+#rules {
+  > p {
+    margin-top: 1.32rem;
+    margin-bottom: 0.34rem;
+    span {
+      .family;
+      font-size: 0.8rem;
+      font-weight: 500;
+    }
+  }
+  > ul {
+    li {
+      dl {
+        dt {
+          img {
+            width: 4.65rem;
+            height: 3.61rem;
+          }
+        }
+        dd {
+          p {
+            margin-top: 0.2rem;
+            font-size: 0.2rem;
+          }
+          div {
+            align-items: flex-start;
+            margin-top: 0.28rem;
+            img {
+              width: 0.43rem;
+              height: 0.43rem;
+            }
+            div {
+              width: 3.3rem;
+              margin-right: 0.7rem;
+              margin-top: 0;
+              span {
+                display: block;
+                opacity: 0.3;
+                font-size: 0.14rem;
+              }
+              div {
+                span {
+                  margin-top: 0.07rem;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .covers {
+      width: 10rem;
+      height: 5.2rem;
+      background: #1c1c2477;
+      border-radius: 0.23rem;
+      padding: 0.2rem !important;
+      // margin-top: 0.34rem !important;
+    }
+
+    > li:nth-of-type(1) {
+      width: 10rem;
+      dl {
+        width: 4.9rem;
+        height: 3.92rem;
+        background: #1c1c2477;
+        border-radius: 0.23rem;
+        padding: 0.4rem;
+        @media screen and (max-width: 1400px) {
+          height: 5rem;
+        }
+        dt {
+          font-size: 0.26rem;
+        }
+        dd {
+          padding-left: 0.15rem;
+          p {
+            opacity: 0.3;
+            font-size: 0.14rem;
+            position: relative;
+            span {
+              position: absolute;
+              left: -0.15rem;
+              top: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+  .airdrops {
+    .family;
+    margin-top: 2rem;
+    img {
+      width: 10.1rem;
+      height: 2.73rem;
+    }
+    ul {
+      align-items: flex-start;
+      margin-top: 0.5rem;
+      li:nth-of-type(1) {
+        opacity: 0.3;
+        font-size: 0.14rem;
+        width: 4.84rem;
+      }
+      li:nth-of-type(2) {
+        > p {
+          font-size: 0.16rem;
+        }
+        div {
+          width: 4.2rem;
+          height: 0.6rem;
+          background: #1e1e29;
+          border-radius: 0.3rem;
+          padding-left: 0.15rem;
+          margin-top: 0.25rem;
+          p:nth-of-type(1) {
+            opacity: 0.5;
+            font-size: 0.12rem;
+          }
+          p:nth-of-type(2) {
+            width: 1.14rem;
+            height: 0.54rem;
+            background: #5527ff;
+            border-radius: 0.27rem;
+            font-size: 0.16rem;
+          }
+        }
+        .cwTrue {
+          background: transparent;
+          padding-left: 0rem;
+          width: 4.2rem;
+          p:nth-of-type(2) {
+            width: 2.5rem;
+            height: 0.54rem;
+            background: #5527ff;
+            border-radius: 0.27rem;
+            font-size: 0.16rem;
+          }
+        }
+      }
+    }
+  }
+  .claims {
+    margin-top: 1.6rem;
+    position: relative;
+    z-index: 1;
+    &:after {
+      content: ' ';
+      display: block;
+      clear: both;
+      width: 19.2rem;
+      height: 1.89rem;
+      opacity: 0.8;
+      background: #12121c;
+      position: relative;
+      left: -4.6rem;
+      top: -1.4rem;
+      z-index: -1;
+    }
+    dl {
+      padding-top: 0.5rem;
+      dd {
+        position: relative;
+        span:nth-of-type(1) {
+          font-size: 0.5rem;
+        }
+        span:nth-of-type(2) {
+          position: relative;
+          top: -0.15rem;
+          right: -0.2rem;
+          opacity: 0.5;
+          font-size: 0.2rem;
+        }
+        p {
+          opacity: 0.77;
+          font-size: 0.14rem;
+          margin-top: 0.18rem;
+        }
+      }
+      dt {
+        width: 1.56rem;
+        height: 0.55rem;
+        background: #5527ff;
+        border-radius: 0.28rem;
+        font-size: 0.18rem;
+      }
+    }
+  }
+
+  .el-carousel .el-carousel__container {
+    width: 10rem;
+    height: 5.6rem;
+  }
+  .el-carousel__item {
+    width: 10rem;
+    height: 5.6rem;
+  }
+  .el-carousel__indicator .el-carousel__button {
+    width: 0.07rem;
+    height: 0.07rem;
+    background: #3805f7;
+    margin: 0.1rem;
+    border-radius: 50%;
+  }
+}

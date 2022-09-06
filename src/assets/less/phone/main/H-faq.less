@@ -1,0 +1,94 @@
+.family {
+  font-family: Helvetica Neue, Helvetica Neue-Medium;
+}
+#faq {
+  position: relative;
+  background: #111116;
+  padding-bottom: 0.83rem;
+  padding-top: 0.5rem;
+
+  .family;
+  > p {
+    padding: 0 0.4rem;
+    span {
+      font-size: 0.8rem;
+    }
+  }
+  .text {
+    width: 100vw;
+    background: #111116;
+    align-items: flex-start;
+    margin-top: 0.6rem;
+    position: relative;
+    padding-left: 0.4rem;
+
+    .covers {
+      background: #1c1c24;
+      border-radius: 0.21rem;
+      padding: 0.25rem;
+      margin-left: 0.1rem;
+      width: 3.5rem;
+      height: 3rem;
+      dl {
+        dt {
+          opacity: 0.5;
+          font-size: 0.25rem;
+        }
+        dd {
+          margin-top: 0.5rem;
+          .one {
+            opacity: 0.3;
+            font-size: 0.2rem;
+            font-family: Helvetica, Helvetica-Regular;
+          }
+          .two {
+            font-size: 0.25rem;
+            transition: all 0.5s ease;
+          }
+          .two:nth-of-type(2) {
+            // width: 3.25rem;
+            opacity: 0.3;
+            font-size: 0.14rem;
+            margin-top: 0.5rem;
+            transition: all 0.5s ease;
+          }
+        }
+      }
+    }
+    .tops {
+      width: 3.5rem;
+      height: 3rem;
+    }
+  }
+
+  .el-carousel .el-carousel__container {
+    width: 100vw;
+    height: 3.5rem;
+    position: auto;
+    // overflow-x: hidden;
+  }
+
+  .el-carousel__indicator .el-carousel__button {
+    display: none;
+    background: transparent !important;
+  }
+  .el-carousel__mask {
+    width: 0;
+  }
+
+  .el-carousel__arrow {
+    width: 0.65rem;
+    height: 0.65rem;
+    position: absolute;
+    right: 1.2rem;
+    top: 3.5rem;
+    border: #313136 1px solid;
+  }
+  .el-carousel__arrow:hover {
+    color: #481ec7 !important;
+    border: #481ec7 1px solid;
+  }
+  .el-carousel__arrow:nth-of-type(1) {
+    left: 5.2rem;
+  }
+}

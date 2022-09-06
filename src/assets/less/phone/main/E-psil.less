@@ -1,0 +1,136 @@
+.family {
+  font-family: Helvetica Neue, Helvetica Neue-Medium;
+}
+#psil {
+  .family;
+  p {
+    span {
+      font-size: 0.8rem;
+      font-weight: 500;
+    }
+  }
+
+  .coin {
+    position: relative;
+    height: 3.5rem;
+    img {
+      position: absolute;
+      width: 5.57rem;
+      height: 5.57rem;
+      top: -0.5rem;
+      left: 0.7rem;
+      z-index: 1;
+    }
+    dl {
+      width: 3.17rem;
+      height: 1.72rem;
+      background: #1c1c24;
+      border-radius: 0.21rem;
+      padding: 0.25rem;
+      align-items: flex-start;
+      dt {
+        opacity: 0.5;
+        font-size: 0.2rem;
+      }
+      dd {
+        font-size: 0.34rem;
+        width: 2.2rem;
+      }
+    }
+    dl:nth-of-type(1) {
+      position: absolute;
+      top: 1.5rem;
+      left: -0rem;
+      z-index: 0;
+    }
+    dl:nth-of-type(2) {
+      position: absolute;
+      top: 0.05rem;
+      left: 3.8rem;
+      z-index: 2;
+      background: #1c1c2457;
+    }
+    ul {
+      position: absolute;
+      bottom: -0.5rem;
+      right: 0;
+      font-size: 0.2rem;
+      li {
+        font-size: 0.2rem;
+        color: #5527ff;
+        width: 4.76rem;
+      }
+      li:nth-last-of-type(2) {
+        color: #000000;
+      }
+    }
+  }
+  .coinText {
+    position: relative;
+    .family;
+    padding-top: 1rem;
+    > p {
+      opacity: 0.3;
+      font-size: 0.2rem;
+    }
+    .coinTextBottom {
+      margin-top: 0.5rem;
+      width: 6.54rem;
+      font-size: 0.2rem;
+    }
+    dl {
+      align-items: flex-start;
+      height: 3.16rem;
+      background: #1c1c245b;
+      border-radius: 0.2rem;
+      margin-top: 0.4rem;
+      padding: 0.4rem;
+
+      dd {
+        span {
+          opacity: 0.5;
+          font-size: 0.2rem;
+        }
+        p {
+          font-size: 0.38rem;
+          color: #5527ff;
+          margin-top: 0.1rem;
+        }
+        ul {
+          width: 2.46rem;
+          height: 0.64rem;
+          background: #1e1e29;
+          border-radius: 0.14rem;
+          padding: 0.2rem;
+          margin-top: 0.1rem;
+          input {
+            background-color: transparent;
+            border: transparent;
+            width: 1.14rem;
+            color: #fff;
+            font-size: 0.38rem;
+            position: absolute;
+            overflow: hidden;
+          }
+          li {
+            font-size: 0.38rem;
+            margin-left: 1.35rem;
+          }
+        }
+      }
+      dd:nth-of-type(2) {
+        margin-top: 0.3rem;
+      }
+    }
+    .coinClaim {
+      width: 6.16rem;
+      height: 0.8rem;
+      background: #5c24ff;
+      border-radius: 0.4rem;
+      position: absolute;
+      bottom: 1.2rem;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+}

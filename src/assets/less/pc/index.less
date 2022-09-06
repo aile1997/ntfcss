@@ -1,0 +1,39 @@
+.imgCss {
+  position: absolute;
+  width: 17.4rem;
+  height: 17.4rem;
+  opacity: 0.6;
+  pointer-events: none;
+}
+#index {
+  color: #eaeaea;
+  width: 100vw;
+  height: 100vh;
+  .contents {
+    padding: 0 4.6rem;
+    background-color: #0d0d11;
+  }
+
+  .covers1 {
+    top: 9.8rem;
+    .imgCss;
+  }
+  .covers2 {
+    top: 9.8+17.4rem;
+    .imgCss;
+    transform: rotateY(180deg);
+  }
+  .covers3 {
+    top: 9.8+17.4+17.4rem;
+    .imgCss;
+    transform: rotateZ(90deg);
+  }
+  .covers4 {
+    top: 9.8+17.4+17.4+10rem;
+    .imgCss;
+    transform: rotateZ(90deg);
+  }
+}
+.phone {
+  display: none;
+}
